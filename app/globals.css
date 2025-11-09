@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #0b1220;
+}
+
+html, body, #__next {
+  height: 100%;
+}
+
+body {
+  background: var(--background);
+  color: #e5e7eb;
+}
+
+/* React Flow theme tweaks */
+.react-flow__node-default {
+  border-radius: 8px;
+  background: #111827;
+  border: 1px solid #1f2937;
+  color: #e5e7eb;
+}
+
+.react-flow__attribution {
+  display: none;
+}
